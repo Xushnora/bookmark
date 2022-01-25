@@ -5,17 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bookmark</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/col.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="container">
-        <div class="extension">
-            <div class="ext-desc">
-                <h2 class="ext-title">
-                    Download the extension
-                </h2>
-                <p></p>
+    <header class="header">
+       <div class="container">
+        <div class="header-site row middle between">
+            <a class="logo-link" href="#">
+                <img src="./images/logo-book.svg" alt="logo" width="150" height="25">
+            </a>
+            <nav class="site-nav">
+                <ul class="nav-list row middle">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-btn" href="#">LOGIN</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+       </div>
+    </header>
+    <section id="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-desc">
+                    <h1 class="hero-title">A Simple Bookmark <br> Manager</h1>
+                    <p class="hero-text">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div>
+                        <a class="hero-btn" href="#">Get it on Chrome</a>
+                        <a class="hero-btn" href="#">Get it on Firefox</a>
+                    </div>
+                </div>
+                <div class="img-block">
+                    <img class="img-hero" src="./images/hero-img.png" alt="hero-img" width="579" height="386">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <main>
+        <section id="features">
+            <div class="container">
+                <div class="feat-content">
+                    <h2 class="feat-title">Features</h2>
+                    <p class="feat-text">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                    <ul class="feat-list row middle around">
+                        <li class="feat-item">
+                            <a class="feat-link" href="#">Simple Bookmarking</a>
+                        </li>
+                        <li class="feat-item">
+                            <a class="feat-link" href="#">Speedy Searching</a>
+                        </li>
+                        <li class="feat-item">
+                            <a class="feat-link" href="#">Easy Sharing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="click">
+            <div class="container">
+                <div class="click-content">
+                    <div class="click-img">
+                        <img class="img-click" src="./images/click.png" alt="img" width="536" height="346">
+                    </div>
+                    <div class="click-desc">
+                        <h2 class="click-title">Bookmark in one click</h2>
+                        <p class="click-text">
+                            Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+                        </p>
+                        <a class="click-btn" href="#">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="brauezer">
+            <div class="container">
+                <div class="extension">
+                    <div class="ext-desc">
+                        <h2 class="ext-title"> Download the extension</h2>
+                        <p class="ext-text">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+                    </div>
+                    <ul class="ext-list row middle center">
+                        <li class="ext-item">
+                            <img src="./images/chrome-2.svg" alt="chrome" width="102" height="100">
+                            <h3 class="ext-item-title">
+                                Add to Chrome
+                            </h3>
+                            <p class="ext-item-text">
+                                Minimum version 62
+                            </p>
+                            <button class="ext-button">Add & Install Extension</button>
+                        </li>
+                        <li class="ext-item">
+                            <img src="./images/firefox.svg" alt="frefox" width="105" height="100">
+                            <h3 class="ext-item-title">
+                                Add to Firefox
+                            </h3>
+                            <p class="ext-item-text">
+                                Minimum version 55
+                            </p>
+                            <button class="ext-button">Add & Install Extension</button>
+                        </li>
+                        <li class="ext-item">
+                            <img src="./images/Combined Shape 2.svg" alt="opera" width="96" height="100">
+                            <h3 class="ext-item-title">
+                                Add to Opera
+                            </h3>
+                            <p class="ext-item-text">
+                                Minimum version 46
+                            </p>
+                            <button class="ext-button">Add & Install Extension</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="question">
+            <div class="container">
+                <div class="question-block">
+                    <div class="title-block">
+                        <h2 class="question-title">Frequently Asked Questions</h2>
+                        <p class="question-text">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+                    </div>
+                    <div>
+                        <ul class="questions-list">
+                            <li class="questions-item row middle between">
+                                <a class="questions-link" href="#">What is Bookmark?</a><i class='bx bx-chevron-down'></i>
+                            </li>
+                            <li class="questions-item row middle between">
+                                <a class="questions-link" href="#">How can I request a new browser?</a><i class='bx bx-chevron-down'></i>
+                            </li>
+                            <li class="questions-item row middle between">
+                                <a class="questions-link" href="#">Is there a mobile app?</a><i class='bx bx-chevron-down'></i>
+                            </li>
+                            <li class="questions-item row middle between">
+                                <a class="questions-link" href="#">What about other Chromium browsers?</a><i class='bx bx-chevron-down'></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="click-btn info">More Info</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact-block">
+                    <div class="contact-desc">
+                        <p class="contact-text">35,000+ ALREADY JOINED</p>
+                        <h2 class="contact-title">Stay up-to-date with what
+                            we're doing</h2>
+                    </div>
+                    <form class="form-block row middle">
+                        <input type="email" name="email" placeholder="Enter your email address" required>
+                        <button class="input-btn" type="submit">Contact Us</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer-pr">
+       <div class="container">
+           <div class="footer-block row middle between">
+            <a href="#">
+                <img src="./images/logo-footer.svg" alt="logo" width="148" height="25px">
+            </a>
+            <ul class="footer-list row middle grow">
+                <li class="footer-item">
+                    <a class="footer-link " href="#">FEATURES</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link " href="#">FEATURES</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link " href="#">FEATURES</a>
+                </li>
+            </ul>
+            <div>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+           </div>
+       </div>
+    </footer>
 </body>
 </html>
