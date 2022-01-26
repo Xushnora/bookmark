@@ -73,7 +73,7 @@ a{
 }
 
 .hero-content{
-    padding: 110px 0;
+    padding: 110px 0 150px 0;
     display: flex;
 }
 
@@ -128,19 +128,28 @@ a{
 }
 
 .img-block{
-    width: 550px;
-    height: 352px;
-    background-image: url(../images/hero-back.svg);
     position: relative;
-    left: 210px;
-    bottom: -100px;
-    background-repeat: no-repeat;
-    margin-bottom: 80px;
+    width: 550px;
+    height: 450px;
+    right: -200px;
+    top: 0px;
 }
+
+.img-block{
+    background-image: url(../images/hero-back.svg);
+    background-position: right 0px top 100px;
+    background-size: 481px;
+    background-repeat: no-repeat;
+}
+
+
 .img-hero{
+    width: 590px;
+    height: 450px;
     position: absolute;
-    right: 120px;
-    top: -100px;
+    right: 100px;
+    top: -40px;
+    object-fit: contain;
 }
 
 
@@ -258,19 +267,23 @@ a{
 }
 
 .click-img{
+    position: relative;
+    top: 100px;
+    left: -200px;
     width: 550px;
     height: 352px;
+}
+
+.click-img{
     background-image: url('../images/click-bacg.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    left: -300px;
-    top: 100px;
+    background-size: contain;
+    background-position: left 0px top 50px;
 }
 
 .img-click{
     position: relative;
-    left: 300px;
+    left: 200px;
     top: -100px;
 }
 
